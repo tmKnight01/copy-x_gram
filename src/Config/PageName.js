@@ -3,7 +3,7 @@ export const PageName = {
   HomeScreen: 'HomeScreen',
   MenuScreen: 'MenuScreen',
   AccountScreen: 'AccountScreen',
-  InAppUpdateScreen: 'InAppUpdateScreen',
+  // InAppUpdateScreen: 'InAppUpdateScreen',
   HomeStack: 'HomeStack',
   MenuStack: 'MenuStack',
   ProfileScreen: 'ProfileScreen',

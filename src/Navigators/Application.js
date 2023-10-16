@@ -10,7 +10,7 @@ import {
   CreatePost,
   EditProfileScreen,
   ImageEditor,
-  InAppUpdateScreen,
+  // InAppUpdateScreen,
   LoginScreen,
   MediaPicker,
   OnboardingScreen,
@@ -70,10 +70,10 @@ const Application = () => {
           name={PageName.OnboardingScreen}
           component={OnboardingScreen}
         />
-        <Stack.Screen
+        {/* <Stack.Screen
           name={PageName.InAppUpdateScreen}
           component={InAppUpdateScreen}
-        />
+        /> */}
         <Stack.Screen name={PageName.PreAuthStack} component={PreAuthStack} />
         <Stack.Screen name={PageName.AuthStack} component={AuthStack} />
       </Stack.Navigator>

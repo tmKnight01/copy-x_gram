@@ -1,6 +1,6 @@
 apply plugin: "com.android.application"
 apply from: project(':react-native-config').projectDir.getPath() + "/dotenv.gradle"
-apply from: "../../node_modules/react-native-code-push/android/codepush.gradle"
+// apply from: "../../node_modules/react-native-code-push/android/codepush.gradle"
 
 import com.android.build.OutputFile
 import org.apache.tools.ant.taskdefs.condition.Os
@@ -133,9 +133,10 @@ def reactNativeArchitectures() {
 }
 
 android {
-    ndkVersion rootProject.ext.ndkVersion
+    ndkVersion '21.4.7075529'
 
-    compileSdkVersion rootProject.ext.compileSdkVersion
+    compileSdkVersion  rootProject.ext.compileSdkVersion
+    // 
 
     defaultConfig {
         applicationId "com.xgram"
